@@ -307,7 +307,8 @@ int main(int argc, char **argv)
 	if (argc>1){
 		thread_count = strtol(argv[1],NULL,10);
 	}
-
+	
+	// Generacion aleatoria de datos para prueba con rand()
 	City city;
 	city.x=0;
 	city.y=0;
@@ -316,7 +317,7 @@ int main(int argc, char **argv)
 		city.name = i;
 		map[i]=city;
 	}
-printf("CREATING MAP...\n");
+	printf("CREATING MAP...\n");
 	for(int i=0; i<CITIES; i++){
 		//do{
 			map[i].x = rand();
