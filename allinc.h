@@ -5,6 +5,7 @@
 #include <time.h>
 #include <cstdlib>
 #include <iostream>
+// Trabajo practico de SPD - Algoritmos Geneticos en TSP - Adrian Ramirez Y09061
 
 #define CITIES 512
 #define POP_SIZE 10

@@ -1,3 +1,5 @@
+// Trabajo practico de SPD - Algoritmos Geneticos en TSP - Adrian Ramirez Y09061
+
 #include "allinc.h"
 #include <math.h>
 #include <limits.h>
